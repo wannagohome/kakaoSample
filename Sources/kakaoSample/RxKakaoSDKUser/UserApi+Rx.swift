@@ -21,7 +21,6 @@ import RxAlamofire
 import KakaoSDKCommon
 import RxKakaoSDKCommon
 import KakaoSDKAuth
-import RxKakaoSDKAuth
 import KakaoSDKUser
 
 extension UserApi: ReactiveCompatible {}

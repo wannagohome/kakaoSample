@@ -21,7 +21,6 @@ import KakaoSDKCommon
 import RxKakaoSDKCommon
 
 import KakaoSDKAuth
-import RxKakaoSDKAuth
 
 import KakaoSDKTalk
 import KakaoSDKTemplate
