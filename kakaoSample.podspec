@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'kakaoSample'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'just sample'
 
-  s.swift_versions = '5.0'
+  s.swift_versions = '4.2'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
