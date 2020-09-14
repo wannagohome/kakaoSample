@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23269B4E250F074800D44D2F /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23269B4A250F074800D44D2F /* RxAlamofire.framework */; };
-		23269B4F250F074800D44D2F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23269B4B250F074800D44D2F /* RxSwift.framework */; };
-		23269B50250F074800D44D2F /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23269B4C250F074800D44D2F /* RxCocoa.framework */; };
-		23269B51250F074800D44D2F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23269B4D250F074800D44D2F /* Alamofire.framework */; };
 		23269B5C250F0CDC00D44D2F /* RxKakaoSDKCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 23269B56250F0CDC00D44D2F /* RxKakaoSDKCommon.h */; };
 		23269B5D250F0CDC00D44D2F /* ObservableType+Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23269B58250F0CDC00D44D2F /* ObservableType+Compose.swift */; };
 		23269B5E250F0CDC00D44D2F /* Api+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23269B5A250F0CDC00D44D2F /* Api+Rx.swift */; };
@@ -23,6 +19,7 @@
 		23269B6C250F0D1100D44D2F /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 23269B6B250F0D1100D44D2F /* KakaoSDKTemplate */; };
 		23269B6E250F0D1100D44D2F /* KakaoSDKLink in Frameworks */ = {isa = PBXBuildFile; productRef = 23269B6D250F0D1100D44D2F /* KakaoSDKLink */; };
 		23269B70250F0D1100D44D2F /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 23269B6F250F0D1100D44D2F /* KakaoSDKAuth */; };
+		23269B73250F37CC00D44D2F /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 23269B72250F37CC00D44D2F /* RxAlamofire */; };
 		239D8406250EF76900B1E134 /* kakaoSample.h in Headers */ = {isa = PBXBuildFile; fileRef = 239D8404250EF76900B1E134 /* kakaoSample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		239D841D250EF7D200B1E134 /* LinkApi+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D840D250EF7D200B1E134 /* LinkApi+Rx.swift */; };
 		239D841E250EF7D200B1E134 /* RxKakaoSDKLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 239D840E250EF7D200B1E134 /* RxKakaoSDKLink.h */; };
@@ -39,10 +36,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		23269B4A250F074800D44D2F /* RxAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAlamofire.framework; path = Carthage/Build/iOS/RxAlamofire.framework; sourceTree = SOURCE_ROOT; };
-		23269B4B250F074800D44D2F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
-		23269B4C250F074800D44D2F /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
-		23269B4D250F074800D44D2F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
 		23269B56250F0CDC00D44D2F /* RxKakaoSDKCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxKakaoSDKCommon.h; sourceTree = "<group>"; };
 		23269B58250F0CDC00D44D2F /* ObservableType+Compose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Compose.swift"; sourceTree = "<group>"; };
 		23269B5A250F0CDC00D44D2F /* Api+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Api+Rx.swift"; sourceTree = "<group>"; };
@@ -69,16 +62,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23269B50250F074800D44D2F /* RxCocoa.framework in Frameworks */,
-				23269B4F250F074800D44D2F /* RxSwift.framework in Frameworks */,
-				23269B4E250F074800D44D2F /* RxAlamofire.framework in Frameworks */,
 				23269B68250F0D1100D44D2F /* KakaoSDKNavi in Frameworks */,
 				23269B66250F0D1100D44D2F /* KakaoSDKStory in Frameworks */,
 				23269B6C250F0D1100D44D2F /* KakaoSDKTemplate in Frameworks */,
 				23269B64250F0D1100D44D2F /* KakaoSDKTalk in Frameworks */,
 				23269B62250F0D1100D44D2F /* KakaoSDKCommon in Frameworks */,
 				23269B6E250F0D1100D44D2F /* KakaoSDKLink in Frameworks */,
-				23269B51250F074800D44D2F /* Alamofire.framework in Frameworks */,
+				23269B73250F37CC00D44D2F /* RxAlamofire in Frameworks */,
 				23269B6A250F0D1100D44D2F /* KakaoSDKUser in Frameworks */,
 				23269B70250F0D1100D44D2F /* KakaoSDKAuth in Frameworks */,
 			);
@@ -134,10 +124,6 @@
 		239D8403250EF76900B1E134 /* kakaoSample */ = {
 			isa = PBXGroup;
 			children = (
-				23269B4D250F074800D44D2F /* Alamofire.framework */,
-				23269B4A250F074800D44D2F /* RxAlamofire.framework */,
-				23269B4C250F074800D44D2F /* RxCocoa.framework */,
-				23269B4B250F074800D44D2F /* RxSwift.framework */,
 				239D840F250EF7D200B1E134 /* RxKakaoSDKAuth */,
 				239D840C250EF7D200B1E134 /* RxKakaoSDKLink */,
 				239D841A250EF7D200B1E134 /* RxKakaoSDKStory */,
@@ -245,6 +231,7 @@
 				23269B6B250F0D1100D44D2F /* KakaoSDKTemplate */,
 				23269B6D250F0D1100D44D2F /* KakaoSDKLink */,
 				23269B6F250F0D1100D44D2F /* KakaoSDKAuth */,
+				23269B72250F37CC00D44D2F /* RxAlamofire */,
 			);
 			productName = kakaoSample;
 			productReference = 239D8401250EF76900B1E134 /* kakaoSample.framework */;
@@ -275,6 +262,7 @@
 			mainGroup = 239D83F7250EF76900B1E134;
 			packageReferences = (
 				23269B60250F0D1100D44D2F /* XCRemoteSwiftPackageReference "KakaoSDK-SwiftPM" */,
+				23269B71250F37CC00D44D2F /* XCRemoteSwiftPackageReference "RxAlamofire" */,
 			);
 			productRefGroup = 239D8402250EF76900B1E134 /* Products */;
 			projectDirPath = "";
@@ -526,6 +514,14 @@
 				kind = branch;
 			};
 		};
+		23269B71250F37CC00D44D2F /* XCRemoteSwiftPackageReference "RxAlamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxAlamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -568,6 +564,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 23269B60250F0D1100D44D2F /* XCRemoteSwiftPackageReference "KakaoSDK-SwiftPM" */;
 			productName = KakaoSDKAuth;
+		};
+		23269B72250F37CC00D44D2F /* RxAlamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23269B71250F37CC00D44D2F /* XCRemoteSwiftPackageReference "RxAlamofire" */;
+			productName = RxAlamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
