@@ -1,0 +1,6 @@
+use_frameworks!
+target 'kakaoSample_Tests' do
+  pod 'kakaoSample', :path => '../'
+  
+  
+end
