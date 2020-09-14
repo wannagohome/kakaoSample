@@ -24,7 +24,7 @@ DerivedData
 
 Pods/
 Carthage/
-/*.xcodeproj
+
 **/xcuserdata
 **/xcshareddata
 /.build
