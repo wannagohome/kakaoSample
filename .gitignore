@@ -1,11 +1,3 @@
-# OS X
 .DS_Store
-
-# Xcode
-build/
-*.pbxuser
-
-/.build
 /Packages
-Pods/
 Carthage/
