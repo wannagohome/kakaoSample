@@ -42,4 +42,5 @@ TODO: Add long description of the pod here.
   s.dependency 'RxCocoa'
   s.dependency 'RxAlamofire'
   s.dependency 'DynamicCodable'
+  s.dependency 'KakaoSDK'
 end
